@@ -9,6 +9,9 @@ h1 {
 
 .top-container {
     background-color: #E4F9F5;
+    /* ULTRA IMPORATNT to make child position absolute(relative) to parent the parent element needs to be positioned relative otherwise absolute position in child element will make child to be positioned relative to body NOT TO THE PARENT*/
+    position: relative;
+    padding-top: 100px;
 }
 
 .middle-container {
@@ -23,7 +26,16 @@ h1 {
     height: 200px;
 }
 
+.top-cloud {
+    /* taking element out of HTML flow */
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
 .bottom-cloud {
     /* taking element out of HTML flow */
     position: absolute;
+    left: 300px;
+    bottom: 300px;
 }
