@@ -28,11 +28,28 @@ a {
     color: #11999E;
 }
 
+hr {
+    margin: 150px auto;
+    width: 5%;
+    border-style: none;
+    border-top-style: dotted;
+    border-top-color: #EAF6F6;
+    border-top-width: 10px;
+}
+
 .top-container {
   background-color: #e4f9f5;
   /* ULTRA IMPORATNT to make child position absolute(relative) to parent the parent element needs to be positioned relative otherwise absolute position in child element will make child to be positioned relative to body NOT TO THE PARENT */
   position: relative;
   padding-top: 100px;
+}
+
+.middle-container {
+    margin-top: 60px;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
 }
 
 .profile-img {
