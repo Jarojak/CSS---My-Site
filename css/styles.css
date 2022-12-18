@@ -44,10 +44,14 @@ a {
 
 .skill1-img {
     width: 25%;
+    float: left;
+    margin-right: 30px;
 }
 
 .skill2-img {
     width: 25%;
+    float: right;
+    margin-left: 30px;
 }
 
 .pro {
