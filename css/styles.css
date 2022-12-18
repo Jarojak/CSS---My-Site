@@ -2,6 +2,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: "Merriweather", serif;
+  font-weight: 700;
 }
 
 h1 {
@@ -52,13 +53,19 @@ hr {
     background-color: #66BFBF;
 }
 
+.profile {
+    width: 40%;
+    margin: 0 auto 0 auto;
+}
+
 .profile-img {
-    width: 15%;
+    width: 40%;
+    margin-bottom: 20px;
 }
 
 .skill-row {
     width: 50%;
-    margin: 100px auto 100px auto;
+    margin: 100px auto 150px auto;
     text-align: left;
     line-height: 2;
 }
