@@ -9,7 +9,7 @@ h1 {
 
 .top-container {
     background-color: #E4F9F5;
-    /* ULTRA IMPORATNT to make child position absolute(relative) to parent the parent element needs to be positioned relative otherwise absolute position in child element will make child to be positioned relative to body NOT TO THE PARENT*/
+    /* ULTRA IMPORATNT to make child position absolute(relative) to parent the parent element needs to be positioned relative otherwise absolute position in child element will make child to be positioned relative to body NOT TO THE PARENT */
     position: relative;
     padding-top: 100px;
 }
@@ -24,6 +24,10 @@ h1 {
     background-color: blue;
     width: 200px;
     height: 200px;
+}
+
+.pro {
+    text-decoration: underline;
 }
 
 .top-cloud {
